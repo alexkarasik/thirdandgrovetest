@@ -1,0 +1,38 @@
+.container {
+  border-color: #000000;
+  border-style: solid;
+  width: 700px;
+  height: 500px;
+  background-color: #FFE4B5;
+}
+
+.mix {
+  border-radius: 25px;
+  border-color: black;
+  width: 150px;
+  background-color: #B0E0E6;
+}
+
+.sort {
+  border-radius: 25px;
+  border-color: black;
+  width: 150px;
+  background-color: #B0E0E6;
+}
+
+.rows {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   justify-content: space-between;
+   width: 700px;
+   height: 450px;
+   margin-top: 10px;
+   margin-bottom: 10px;
+ }
+
+ .one, .two, .three, .four, .five, .six, .seven, .eight, .nine, .ten {
+   height: 30px;
+   width: 200px;
+   background-size: contain;
+}
