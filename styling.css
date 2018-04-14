@@ -32,7 +32,47 @@
  }
 
  .one, .two, .three, .four, .five, .six, .seven, .eight, .nine, .ten {
-   height: 30px;
+   height: 50px;
    width: 200px;
    background-size: contain;
+}
+
+.firstTier {
+  height: 4px;
+}
+
+.secondTier {
+  height: 8px
+}
+
+.thirdTier {
+  height: 12px;
+}
+
+.fourthTier {
+  height: 16px;
+}
+
+.fifthTier {
+  height: 20px;
+}
+
+.sixthTier {
+  height: 24px;
+}
+
+.seventhTier {
+  height: 28px;
+}
+
+.eigthTier {
+  height: 32px;
+}
+
+.ninthTier {
+  height: 36px;
+}
+
+.tenthTier {
+  height: 40px;
 }

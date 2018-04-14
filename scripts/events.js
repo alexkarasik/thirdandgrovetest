@@ -26,7 +26,7 @@ let bubbleSort = (array) => {
   do {
     swap = 0;
     for (let i=0; i < arr.length -1; i++) {
-      
+
       if (array[i] > array[i + 1]) {
         let x = arr[i];
         arr[i] = arr[i+1];
@@ -37,3 +37,26 @@ let bubbleSort = (array) => {
   } while (swap == 1);
   return bubbleSort(array);
 };
+
+$(document).ready(function() {
+  $('.sort').on('click', function() {
+    sortSuccess();
+  })
+});
+
+$(document).ready(function() {
+  $('.mix').on('click', function() {
+    let array = onMixItup();
+    shuffleSuccess(array);
+    shuffleClassOne();
+    shuffleClassTwo();
+    shuffleClassThree();
+    shuffleClassFour();
+    shuffleClassFive();
+    shuffleClassSix();
+    shuffleClassSeven();
+    shuffleClassEight();
+    shuffleClassNine();
+    shuffleClassTen();
+  })
+});
